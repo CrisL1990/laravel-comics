@@ -1,0 +1,44 @@
+@import './colors';
+@import './common';
+
+footer{
+
+    display: flex;
+    min-height: 100px;
+    background-color: $myblue;
+
+    .container{
+        #footer-top{
+            
+            display: flex;
+
+            .box{
+                height: 150px;
+                width: calc(100% / 5);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a{
+                    text-align: center;
+                    #visa{
+                        width: 75px;
+                        margin-right: 20px;
+                    }
+                    img{
+                        width: 50%;
+                        height: 50%;
+                        #visa{
+                        width: 50%;
+                        height: 50%;
+                    }
+                    }
+                }
+                span{
+                    color: $textWhite;
+                }
+            }
+        }
+    }
+
+    
+}

@@ -1,0 +1,42 @@
+@import "./common";
+@import "./colors";
+
+    header{
+       
+        .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            align-items: center;
+            height: 130px;
+            
+            li{
+                line-height: 100%;
+                height: 130px;
+                display: flex;
+                align-items: center;
+                
+                
+                
+                a{
+                text-decoration: none;
+                padding: 20px;
+                color: $textBlack;
+                line-height: 100%;
+                height: 130px;
+                display: flex;
+                align-items: center;
+                &:hover{
+                    border-bottom: solid $myblue 5px;
+                    color: $myblue;
+                }
+                }
+            }
+            
+            
+        }
+    }

@@ -1,0 +1,14 @@
+@import './colors';
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding: 10px 50px;
+    background-color: $myblue;
+    border: none;
+    color: $textWhite;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
