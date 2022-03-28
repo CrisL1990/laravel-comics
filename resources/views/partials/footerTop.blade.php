@@ -1,5 +1,5 @@
 <footer>
-    <div class="container">
+    <div class="ft-container">
 
         <section id="footer-top">
 

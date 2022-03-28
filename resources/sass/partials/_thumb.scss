@@ -1,12 +1,11 @@
-@import './colors';
-@import './common';
 
-main{
+
+.th-main{
     min-height: 100px;
     background-color: $bgGray;
     display: flex;
     
-    .container{
+    .th-container{
         padding-top: 50px;
         display: flex;
         height: 100%;
@@ -19,7 +18,7 @@ main{
             height: 300px;
             width: calc(100% / 6);
                 
-            .img-cont{
+            .th-img-cont{
                 position: absolute;
                 top: 0;
                 left: 0;

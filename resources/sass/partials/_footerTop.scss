@@ -1,5 +1,4 @@
-@import './colors';
-@import './common';
+
 
 footer{
 
@@ -7,9 +6,9 @@ footer{
     min-height: 100px;
     background-color: $myblue;
 
-    .container{
+    .ft-container{
+
         #footer-top{
-            
             display: flex;
 
             .box{

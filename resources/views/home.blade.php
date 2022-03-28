@@ -3,20 +3,20 @@
 @section('pageTitle', 'DC COOMICS - HOME')
 
 @section('content')
-<main>
-    <div class="container">
+<main class="th-main">
+    <div class="th-container">
         
 
         @foreach ($fumetti as $fumetto )
             <div class="thumb">
-                <div class="img-cont">
+                <div class="th-img-cont">
                     <img src="{{$fumetto['thumb']}}" alt="#">
                 </div>
                 <span>{{$fumetto['series']}}</span>
             </div>
         @endforeach
 
-        <div class="container">
+        <div class="th-container">
             <button>LOAD MORE</button>
         </div>
         
