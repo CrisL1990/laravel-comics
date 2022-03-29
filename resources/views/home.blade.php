@@ -7,12 +7,12 @@
     <div class="th-container container">
         
 
-        @foreach ($fumetti as $fumetto )
+        @foreach ($fumetti as $key => $fumetto)
             <div class="thumb">
                 <div class="th-img-cont">
                     <img src="{{$fumetto['thumb']}}" alt="#">
                 </div>
-                <span>{{$fumetto['series']}}</span>
+                <a href="/fumetto/{{$key}}"><span>{{$fumetto['series']}}</span></a>
             </div>
         @endforeach
 
