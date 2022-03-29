@@ -4,7 +4,7 @@
 
 @section('content')
 <main class="th-main">
-    <div class="th-container">
+    <div class="th-container container">
         
 
         @foreach ($fumetti as $fumetto )
