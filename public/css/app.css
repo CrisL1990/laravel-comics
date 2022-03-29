@@ -1,4 +1,6 @@
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@300&family=Outfit:wght@700&family=Roboto:wght@300;400;500;900&family=Rubik+Mono+One&display=swap);* {
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@300&family=Outfit:wght@700&family=Roboto:wght@300;
+
+400;500;900&family=Rubik+Mono+One&display=swap);* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -152,7 +154,7 @@ footer .ft-container #footer-top .box span {
 }
 
 .footer-center {
-  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-image: url("/img/footer-bg.jpg");
   height: 450px;
 }
 
