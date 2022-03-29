@@ -6,6 +6,7 @@
 <main class="th-main">
     <div class="th-container container">
         
+        
 
         @foreach ($fumetti as $key => $fumetto)
             <div class="thumb">
@@ -22,5 +23,8 @@
         
         
     </div>
+    
 </main> 
+
+@include('partials.footerTop')
 @endsection

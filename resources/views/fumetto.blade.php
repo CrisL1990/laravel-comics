@@ -6,12 +6,15 @@
     <section class="dettaglioFumetto">
 
         <div class="fascia">
+            <div class="fascia-wrapper">
+                <img src="{{asset('img/')}}" alt="">
+            </div>
         </div>
 
         <div class="wrapper">
             <div class="box-l">
 
-                <h1>{{$info['series']}}#1000: THE DELUXE EDITION</h1>
+                <h1>{{$info['title']}}</h1>
 
                 <div class="price">
 
@@ -42,6 +45,67 @@
                     <img class="adv-img" src="{{asset('img/adv.jpg')}}" alt="">
                 </div>
             </div>
+        </div>
+
+        <div class="main-btm">
+
+            <div class="wrapper">
+
+                <div class="talent">
+                    <h2>TALENT</h2>
+
+                    <div class="art">
+
+                        <div class="title">
+                            <h5>Art by:</h5>
+                        </div>
+
+                        <div class="artists">
+                            @foreach ($info['artists'] as $artist)
+                                <span><a href="">{{$artist}}</a></span>
+                            @endforeach
+                        </div>
+
+                    </div>
+
+                    <div class="art">
+
+                        <div class="title">
+                            <h5>Written by:</h5>
+                        </div>
+
+                        <div class="artists">
+                            @foreach ($info['writers'] as $artist)
+                                <span><a href="">{{$artist}}</a></span>
+                            @endforeach
+                        </div>
+
+                    </div>
+
+                 
+                </div>
+
+                <div class="specs">
+                    <h2>SPECS</h2>
+
+                    <div class="specs-cont">
+                        <span class="specs-info">Series:</span>
+                        <span>{{$info['series']}}</span>
+                    </div>
+
+                    <div class="specs-cont">
+                        <span class="specs-info">U.S. Price:</span>
+                        <span>{{$info['price']}}</span>
+                    </div>
+
+                    <div class="specs-cont"> 
+                        <span class="specs-info">On Sale Date:</span>
+                        <span>{{$info['sale_date']}}</span>
+                    </div>
+                </div>
+
+            </div>
+            
         </div>
     </section>
 @endsection

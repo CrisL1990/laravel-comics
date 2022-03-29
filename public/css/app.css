@@ -279,8 +279,13 @@ footer .ft-container #footer-top .box span {
 
 .dettaglioFumetto .fascia {
   width: 100%;
-  height: 50px;
+  height: 100px;
   background-color: #0382f9;
+}
+
+.dettaglioFumetto .fascia .fascia-wrapper {
+  width: 70%;
+  margin: auto;
 }
 
 .dettaglioFumetto .wrapper {
@@ -345,5 +350,55 @@ footer .ft-container #footer-top .box span {
 
 .dettaglioFumetto .wrapper .box-r .adv-img {
   width: 350px;
+}
+
+.dettaglioFumetto .main-btm {
+  display: flex;
+  background-color: lightgray;
+}
+
+.dettaglioFumetto .main-btm .talent,
+.dettaglioFumetto .main-btm .specs {
+  width: 50%;
+}
+
+.dettaglioFumetto .main-btm .talent h2 {
+  margin: 20px 0;
+}
+
+.dettaglioFumetto .main-btm .talent .art {
+  display: flex;
+  border-top: solid white 1px;
+  border-bottom: solid white 1px;
+  padding: 15px 0;
+}
+
+.dettaglioFumetto .main-btm .talent .art .title {
+  width: 40%;
+  display: flex;
+}
+
+.dettaglioFumetto .main-btm .talent .art .artists {
+  width: 60%;
+}
+
+.dettaglioFumetto .main-btm .specs {
+  margin-left: 30px;
+}
+
+.dettaglioFumetto .main-btm .specs h2 {
+  margin: 20px 0;
+}
+
+.dettaglioFumetto .main-btm .specs .specs-cont {
+  height: 50px;
+  padding: 15px 0;
+  border-bottom: solid white 1px;
+  border-top: solid white 1px;
+}
+
+.dettaglioFumetto .main-btm .specs .specs-cont .specs-info {
+  display: inline-block;
+  width: 200px;
 }
 
