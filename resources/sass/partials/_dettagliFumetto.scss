@@ -1,0 +1,72 @@
+.dettaglioFumetto{
+
+    .fascia{
+        width: 100%;
+        height: 50px;
+        background-color: $myblue;
+    }
+
+    .wrapper{
+        width: 70%;
+        height: 500px;
+        margin: auto;
+        display: flex;
+
+
+        .box-l{
+            width: 60%;
+            height: 100%;
+            padding-top: 115px;
+
+            h1{
+                margin-bottom: 20px;
+            }
+
+            .price{
+                display: flex;
+                width: 100%;
+                height: 50px;
+                background-color: green;
+                margin-bottom: 20px;
+
+                .usd{
+                    width: 60%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 0 20px;
+                }
+
+                .availability{
+                    width: 40%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+
+            p{
+                font-size: 18px;
+                line-height: 25px;
+            }
+        }
+
+        .box-r{
+            width: 40%;
+            height: 100%;
+            padding-top: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+
+            .adv{
+                margin-bottom: 15px;
+            }
+            .adv-img{
+                width: 350px;
+            }
+        }
+    }
+}
