@@ -281,11 +281,63 @@ footer .ft-container #footer-top .box span {
   width: 100%;
   height: 100px;
   background-color: #0382f9;
+  position: relative;
 }
 
 .dettaglioFumetto .fascia .fascia-wrapper {
   width: 70%;
   margin: auto;
+}
+
+.dettaglioFumetto .fascia .fascia-wrapper .thumb-wrap {
+  position: relative;
+}
+
+.dettaglioFumetto .fascia .fascia-wrapper .thumb-wrap .thumb {
+  position: absolute;
+  bottom: 320px;
+  width: 250px;
+}
+
+.dettaglioFumetto .fascia .fascia-wrapper .thumb-wrap .thumb .img-cont-th {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.dettaglioFumetto .fascia .fascia-wrapper .thumb-wrap .thumb .img-cont-th .genre {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  padding: 8px 15px;
+  z-index: 9999;
+  background-color: #1498cf;
+}
+
+.dettaglioFumetto .fascia .fascia-wrapper .thumb-wrap .thumb .img-cont-th .img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 350px;
+  border: solid white 1px;
+}
+
+.dettaglioFumetto .fascia .fascia-wrapper .thumb-wrap .thumb .img-cont-th .img .img-art {
+  width: 100%;
+}
+
+.dettaglioFumetto .fascia .fascia-wrapper .thumb-wrap .thumb .img-cont-th .gallery {
+  position: absolute;
+  top: 350px;
+  left: 0;
+  width: 100%;
+  color: white;
+  padding: 8px 15px;
+  z-index: 9999;
+  background-color: #1498cf;
+  text-align: center;
 }
 
 .dettaglioFumetto .wrapper {
@@ -330,9 +382,10 @@ footer .ft-container #footer-top .box span {
   align-items: center;
 }
 
-.dettaglioFumetto .wrapper .box-l p {
+.dettaglioFumetto .wrapper .box-l .description {
   font-size: 18px;
   line-height: 25px;
+  padding-bottom: 50px;
 }
 
 .dettaglioFumetto .wrapper .box-r {
@@ -355,6 +408,7 @@ footer .ft-container #footer-top .box span {
 .dettaglioFumetto .main-btm {
   display: flex;
   background-color: lightgray;
+  margin-top: 50px;
 }
 
 .dettaglioFumetto .main-btm .talent,

@@ -7,7 +7,27 @@
 
         <div class="fascia">
             <div class="fascia-wrapper">
-                <img src="{{asset('img/')}}" alt="">
+                
+                <div class="thumb-wrap">
+
+                    <div class="thumb">
+
+                        <div class="img-cont-th">
+
+                            <div class="genre">
+                                <span>COMIC BOOK</span>
+                            </div>
+                            <div class="img">
+                                <img class="img-art" src="{{$info['thumb']}}" alt="">
+                            </div>
+                            <div class="gallery">
+                                <span>VIEW GALLERY</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
             </div>
         </div>
 
@@ -29,10 +49,8 @@
                 </div>
 
                 <div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam exercitationem et atque animi. Itaque natus fugit accusantium. Deserunt sint dolor dignissimos aut reiciendis voluptatibus autem architecto in optio eum! Cumque?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dicta voluptas aperiam iusto corrupti aspernatur! Error, ipsa omnis illo natus atque quae beatae nemo incidunt vitae laboriosam! Itaque, fugit nesciunt.
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque libero expedita accusantium qui eveniet dolores perspiciatis, unde ratione tenetur nulla vitae iusto adipisci asperiores quasi, voluptatibus, doloremque ea officiis harum?
+                    <p class="description">         
+                        {{$info['description']}}              
                     </p>
                 </div>
                 
